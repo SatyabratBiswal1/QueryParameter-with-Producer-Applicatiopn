@@ -18,6 +18,7 @@ public class GstConsumerTest {
 		    Invocation.Builder builder =wt.request();
 		    Response res=builder.get();
 		    System.out.println(res.getStatus());
+		    
 		    System.out.println(res.getStatusInfo());
 		    System.out.println(res.readEntity(String.class));
 		} catch (Exception e) {
