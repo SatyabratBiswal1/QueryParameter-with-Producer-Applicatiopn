@@ -13,4 +13,4 @@
 
 
 Write the producer with RESTcontroller appliocation as it is NO need of Consumer Application ,i have written ,and run on server after open the browser and
-give this uri in your search bar :-http://localhost:8080/jerseyProducerAppMultiController/satya/gst?base=5000&gstp=5 you can give any parameter 
+give this uri in your search bar :-http://localhost:8080/jerseyProducerAppMultiController/satya/gst?base=5000&gstp=5 you can give ypur parameter 
