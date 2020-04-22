@@ -14,7 +14,7 @@ gstAmt = baseCost * gstPercenatge / 100.0*/
 @Path("/gst")
 public class GSTcalculateRestController {
 	@GET
-	public double calculateAmt(@QueryParam("basbasee")int basecost,@QueryParam("gstp")int  gstPercentage)
+	public double calculateAmt(@QueryParam("base")int basecost,@QueryParam("gstp")int  gstPercentage)
 	{
 		double gst=basecost * gstPercentage/ 100.0;
 		return gst;
